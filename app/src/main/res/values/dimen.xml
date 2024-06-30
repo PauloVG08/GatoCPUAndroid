@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="tamano_cuadro">40dp</dimen>
+    <dimen name="padding_layout_superior">10dp</dimen>
+    <dimen name="padding_layout_lateral">35dp</dimen>
+</resources>

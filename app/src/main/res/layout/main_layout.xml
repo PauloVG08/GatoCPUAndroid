@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="@dimen/padding_layout_lateral"
+    android:paddingRight="@dimen/padding_layout_lateral">
+    <TextView
+        android:id="@+id/txtsalida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turno jugador X"
+        android:textAlignment="center"
+        style="@style/EstiloTexto"/>
+    <TextView
+        android:id="@+id/txtorden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu signo es: "
+        android:textAlignment="center"
+        style="@style/EstiloTexto"/>
+    <!-- PRIMER BLOQUE HORIZONTAL-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/cuadro0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="."
+            style="@style/EstiloTexto"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/cuadro1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text="."
+            style="@style/EstiloTexto"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/cuadro2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:text="."
+            style="@style/EstiloTexto"
+            android:layout_weight="1"/>
+    </LinearLayout
+        >
+
+    <!-- SEGUNDO BLOQUE HORIZONTAL-->
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"> <TextView
+    android:id="@+id/cuadro3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:text="."
+    style="@style/EstiloTexto"
+    android:layout_weight="1"/>
+    <TextView
+    android:id="@+id/cuadro4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:text="."
+    style="@style/EstiloTexto"
+    android:layout_weight="1"/>
+    <TextView
+    android:id="@+id/cuadro5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:text="."
+    style="@style/EstiloTexto"
+    android:layout_weight="1" />
+    </LinearLayout
+    >
+
+    <!-- TERCER BLOQUE HORIZONTAL-->
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"> <TextView
+    android:id="@+id/cuadro6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+        android:text="."
+        style="@style/EstiloTexto"
+        android:layout_weight="1" />
+            <TextView
+        android:id="@+id/cuadro7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="."
+        style="@style/EstiloTexto"
+        android:layout_weight="1" />
+        <TextView
+        android:id="@+id/cuadro8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="."
+        style="@style/EstiloTexto"
+        android:layout_weight="1" />
+        </LinearLayout>
+        <Button
+        android:id="@+id/btniniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/EstiloTexto"
+        android:text="Iniciar"/>
+</LinearLayout>
